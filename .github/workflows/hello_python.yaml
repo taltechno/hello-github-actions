@@ -1,0 +1,10 @@
+name: "Hello Python workflow"
+
+on: push
+
+jobs:
+  name: "Show Python version"
+  runs-on: ubuntu-latest
+  steps:
+    - run: python --version
+
